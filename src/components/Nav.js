@@ -1,6 +1,23 @@
 import React from 'react';
 import {Link} from 'react-scroll'
 
+const styles = {
+    navbarStyle: {
+      background: 'green',
+      justifyContent: 'flex-end',
+    },
+  };
+
+  function Navbar() {
+    return (
+      <nav style={styles.navbarStyle} className="navbar">
+        <a href="/">Welcome</a>
+      </nav>
+    );
+  }
+  
+  
+
 class Nav extends React.Component {
     render() {
   return (
@@ -38,3 +55,4 @@ class Nav extends React.Component {
 }
 
 export default Nav;
+export default Navbar;
