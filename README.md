@@ -8,7 +8,7 @@
 
 ## Usage
 
-[1] ()
+Click to view my [React-Portfolio](https://mighty-cliffs-23244.herokuapp.com/)
 
 ## How to Contribute
 

@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Portfolio from './components/Portfolio'
 import Resume from './components/Resume';
+// import ReactPortfolio from './components/ReactPortfolio';
 
 function App() {
   return (
@@ -12,7 +13,12 @@ function App() {
       <Header></Header>
       <Home></Home>
       <Contact></Contact>
-      <Portfolio></Portfolio>
+      <Portfolio>
+        <div>
+          <h1>Portfolio</h1>
+          <a href="https://mighty-cliffs-23244.herokuapp.com/">View my portfolio</a>
+        </div>
+      </Portfolio>
       <Resume></Resume>
       <Footer></Footer>
 
