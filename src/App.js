@@ -13,12 +13,13 @@ function App() {
       <Header></Header>
       <Home></Home>
       <Contact></Contact>
-      <Portfolio>
-        <div>
-          <h1>Portfolio</h1>
+      <Projects>
+      <div>
+          <h1>ScoreSocial</h1>
           <a href="https://mighty-cliffs-23244.herokuapp.com/">View my portfolio</a>
         </div>
-      </Portfolio>
+      </Projects>
+      <Portfolio></Portfolio>
       <Resume></Resume>
       <Footer></Footer>
 
